@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gddisplaymap.MainActivity">
+
+    <TextView
+        android:id="@+id/text_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位中......"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        />
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        />
+</LinearLayout>
